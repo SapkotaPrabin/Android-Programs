@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flower Name"
+        android:inputType="text"
+        android:id="@+id/flower_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. of flowers"
+        android:inputType="number"
+        android:layout_below="@id/flower_name"
+        android:id="@+id/flower_num"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:layout_below="@+id/flower_num"
+        android:inputType="number"
+        android:id="@+id/flower_price"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sow Date"
+        android:inputType="date"
+        android:layout_below="@+id/flower_price"
+        android:id="@+id/flower_sow"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flower_sow"
+        android:text="Insert"
+        android:id="@+id/btnInsert"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flower_sow"
+        android:text="Select"
+        android:layout_toRightOf="@+id/btnInsert"
+        android:layout_marginStart="10dp"
+        android:id="@+id/btnSelect"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flower_sow"
+        android:text="Update"
+        android:layout_toRightOf="@+id/btnSelect"
+        android:layout_marginStart="10dp"
+        android:id="@+id/btnUpdate"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flower_sow"
+        android:text="Delete"
+        android:layout_toRightOf="@+id/btnUpdate"
+        android:layout_marginStart="10dp"
+        android:id="@+id/btnDelete"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsert"
+        android:text="Selected Item"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtData"
+        android:textSize="18sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/txtData"/>
+</RelativeLayout>

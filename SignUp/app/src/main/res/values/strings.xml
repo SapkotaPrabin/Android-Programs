@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="form">Student Details</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Full Name</string>
+    <string name="address">Address</string>
+    <string name="add_hint">Full Address</string>
+    <string name="contact">Contact</string>
+    <string name="contact_num">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="mail">Example@gmail.com</string>
+    <string name="gender">Gender</string>
+    <string name="m">Male</string>
+    <string name="f">Female</string>
+    <string name="o">Other</string>
+    <string name="faculty">Faculty</string>
+    <string-array name="option">
+        <item>BCA</item>
+        <item>BIT</item>
+        <item>BIM</item>
+        <item>BSC-CSIT</item>
+    </string-array>
+    <string name="ps">Programming skills</string>
+    <string name="java">JAVA</string>
+    <string name="html">HTML+CSS</string>
+    <string name="php">PHP</string>
+    <string name="csharp">C#</string>
+    <string name="js">JavaScript</string>
+    <string name="submit">SUBMIT</string>
+</resources>

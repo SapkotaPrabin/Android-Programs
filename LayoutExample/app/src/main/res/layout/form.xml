@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="To"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#535b9f"
+        android:inputType="textEmailSubject"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        android:hint="Message"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textImeMultiLine"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#b765bc"
+        android:padding="30px"
+        android:layout_marginLeft="250dp"
+        android:text="@string/button"
+        android:textColor="#ffffff"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relat"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:id="@+id/txtName"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Date"
+        android:layout_toRightOf="@+id/txtName"
+        android:textStyle="bold"
+        android:id="@+id/txtDate"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="No. of Flower"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtName"
+        android:id="@+id/txtNo"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/txtNo"
+        android:layout_below="@+id/txtDate"
+        android:id="@+id/txtPrice"/>
+</RelativeLayout>
